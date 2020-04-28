@@ -1,0 +1,80 @@
+.name {
+  color: white;
+  font-size: 5em;
+}
+
+.description{
+  color: white;
+  font-size: 2em;
+}
+
+.titles{
+  text-align: center;
+}
+
+.index_page{
+  background: url("profile_1.JPG") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Caveat Brush', cursive;
+}
+
+.socialmedia {
+  padding-left: 65%;
+}
+
+td {
+  padding-top: 10%;
+}
+
+.btn-xlarge {
+    padding: 10px 20px;
+    font-size: 1.5em; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+.custom-button {
+  background-color: black;
+  width: 5.5em;
+  border-style: solid;
+  border-color: white;
+}
+
+a, a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#aboutme {
+  text-align: center;
+}
+
+.img-thumbnail{
+  border-radius: 50%;
+  width:150px;
+}
+
+.profile_penny{
+  text-align:center;
+}
+
+.about{
+  background-color: black;
+  font-family: 'Caveat Brush', cursive;
+  color:white
+}
+
+.text-body{
+  font-size: 1.3em;
+  padding-top: 7%;
+  color:white !important
+}
+
+.email a{
+  color:pink;
+}

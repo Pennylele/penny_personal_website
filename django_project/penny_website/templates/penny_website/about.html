@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<body class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-lg-3">
+      </div>
+      <div class="col-sm-12 col-md-8 col-lg-6">
+        <h1 id="aboutme">About me</h1>
+        <div class="container profile_penny">
+          <img src="{% static 'penny_website/images/profile_0.jpg' %}" alt="penny" class="img-thumbnail">
+        </div>
+        <div class="text-body">
+          <p>Hi, I’m Penny. So glad that you found me here! :) I'm currently a M.S. Computer Science student and I will be graduating on December 2020.
+          <p>Computer science has been something that I desperately want to persue for a long time. Before hopelessly falling down this rabbit hole, I was a Localization Engineer specialized in software, website, and multimedia localization. I had 5 years of professional enigneering experience on the vendor side and 2 years of Localization Project Management education (Master's). In my previous job, I had been using my python skills to automate tasks and reduced some tasks' processing time >90%, which served as the catalyst that pushed me closer to the Computer Science track. I also enjoyed working in a team environemnt with teams memebers spreading across time zones.</p>
+          <p>I am constantly looking for opportunities and challenges that come my way! So please feel free to reach out to me at <span class="email"><a href="mailto:fangle0121@gmail.com">fangle0121@gmail.com</a></span> if there are any and I seem to be a good fit for them. I'm looking forward to hearing from you!</p>
+        </div>
+      </div>
+      <div class="col-md-2 col-lg-3">
+      </div>
+  </div>
+</body>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<body class="index_page">
+  <div class="container titles">
+    <h1 class="name">Penny Fang</h1>
+    <p class="description">M.S. Computer Science student</p>
+  </div>
+
+  <div class="socialmedia">
+    <table class="table-responsive">
+      <table class="table table-borderless">
+        <tr>
+          <td><button type="button" class="btn btn-dark btn-xlarge custom-button"><a href="{% url 'penny_website:about' %}">About</a></button></td>
+        </tr>
+        <tr>
+          <td><button type="button" class="btn btn-dark btn-xlarge custom-button"><a href="https://www.linkedin.com/in/le-penny-fang-9949607b/">LinkedIn</a></button></td>
+        </tr>
+        <tr>
+          <td><button type="button" class="btn btn-dark btn-xlarge custom-button"><a href="https://www.youtube.com/channel/UC6TWeFeoh_oQLxv15hswNxQ">YouTube</a></button></td>
+        </tr>
+        <tr>
+          <td><button type="button" class="btn btn-dark btn-xlarge custom-button"><a href="https://github.com/Pennylele">GitHub</a></button></td>
+        </tr>
+        <tr>
+          <td><button type="button" class="btn btn-dark btn-xlarge custom-button"><a href="https://www.instagram.com/pennbubble/">Instagram</a></button></td>
+        </tr>
+        <tr>
+          <td><button type="button" class="btn btn-dark btn-xlarge custom-button"><a href="https://twitter.com/fangle0121">Twitter</a></button></td>
+        </tr>
+      </table>
+    </table>
+  </div>
+</body>
+{% endblock %}
